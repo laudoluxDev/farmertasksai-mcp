@@ -1,0 +1,28 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["laudoluxDev"],
+  "name": "FarmerTasksAI MCP Server",
+  "description": "193+ AI-powered agricultural administration workflows for farmers, ranchers, and agricultural operations managers. FarmerTasksAI.com never sees your farm task content.",
+  "license": "MIT",
+  "homepage": "https://farmertasksai.com",
+  "repository": "https://github.com/laudoluxDev/farmertasksai-mcp",
+  "categories": ["agriculture", "productivity", "business"],
+  "tools": [
+    {
+      "name": "farmertasksai_search",
+      "description": "Search 193+ agricultural administration workflows by keyword or topic"
+    },
+    {
+      "name": "farmertasksai_execute",
+      "description": "Get the full expert workflow framework after confirmation"
+    },
+    {
+      "name": "farmertasksai_balance",
+      "description": "Check your remaining credit balance"
+    },
+    {
+      "name": "farmertasksai_categories",
+      "description": "Browse workflows by farm administration category"
+    }
+  ]
+}
