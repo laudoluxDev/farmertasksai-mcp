@@ -668,6 +668,8 @@ def normalize_audience_label(label):
     label = (label or "professionals").strip()
     if label in {"attorney", "lawyer"}:
         return f"{label}s"
+    if label == "farmer":
+        return "farmers, ranchers, and agricultural operations managers"
     if label in {"legal", "law"}:
         return "legal professionals"
     return label
