@@ -12,11 +12,8 @@
       "args": [
         "exec",
         "--package=@tasksai/install",
-        "--",
-        "tasksai-install",
-        "farmer",
-        "--source",
-        "https://github.com/laudoluxDev/farmertasksai-mcp"
+        "--call",
+        "tasksai-install farmer --source https://github.com/laudoluxDev/farmertasksai-mcp"
       ],
       "requires": [
         "node",
@@ -76,10 +73,8 @@
     "args": [
       "exec",
       "--package=@tasksai/install",
-      "--",
-      "tasksai-install",
-      "farmer",
-      "doctor"
+      "--call",
+      "tasksai-install farmer doctor"
     ]
   },
   "uninstall": {
@@ -87,10 +82,8 @@
     "args": [
       "exec",
       "--package=@tasksai/install",
-      "--",
-      "tasksai-install",
-      "farmer",
-      "uninstall"
+      "--call",
+      "tasksai-install farmer uninstall"
     ]
   },
   "support": {
