@@ -17,8 +17,7 @@
       ],
       "requires": [
         "node",
-        "npm",
-        "npx"
+        "npm"
       ]
     }
   },
@@ -89,5 +88,9 @@
   "support": {
     "url": "https://farmertasksai.com/support",
     "email": "support@farmertasksai.com"
+  },
+  "runtime": {
+    "source": "shared_installer",
+    "notes": "The wrapper repo provides product metadata; @tasksai/install supplies the shared MCP runtime."
   }
 }
