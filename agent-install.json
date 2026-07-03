@@ -25,9 +25,34 @@
   "supported_clients": [
     "claude_desktop",
     "cursor",
-    "windsurf",
-    "codex"
+    "windsurf"
   ],
+  "permissions": {
+    "write_paths": {
+      "macos": [
+        "~/Library/Application Support/TasksAI/farmer",
+        "~/Library/Application Support/Claude/claude_desktop_config.json",
+        "~/.cursor/mcp.json",
+        "~/.codeium/windsurf/mcp_config.json"
+      ],
+      "windows": [
+        "%LOCALAPPDATA%\\TasksAI\\farmer",
+        "%APPDATA%\\Claude\\claude_desktop_config.json",
+        "%USERPROFILE%\\.cursor\\mcp.json",
+        "%USERPROFILE%\\.codeium\\windsurf\\mcp_config.json"
+      ],
+      "linux": [
+        "~/.local/share/TasksAI/farmer",
+        "~/.config/Claude/claude_desktop_config.json",
+        "~/.cursor/mcp.json",
+        "~/.codeium/windsurf/mcp_config.json"
+      ]
+    },
+    "environment_overrides": [
+      "TASKSAI_INSTALL_DIR"
+    ],
+    "notes": "TASKSAI_INSTALL_DIR or --install-dir may point to an exact alternate product install directory in restricted agent environments."
+  },
   "auth": {
     "method": "browser_device_flow",
     "connect_url": "https://farmertasksai.com/connect",
