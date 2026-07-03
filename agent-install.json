@@ -25,7 +25,8 @@
   "supported_clients": [
     "claude_desktop",
     "cursor",
-    "windsurf"
+    "windsurf",
+    "codex"
   ],
   "permissions": {
     "write_paths": {
@@ -33,19 +34,22 @@
         "~/Library/Application Support/TasksAI/farmer",
         "~/Library/Application Support/Claude/claude_desktop_config.json",
         "~/.cursor/mcp.json",
-        "~/.codeium/windsurf/mcp_config.json"
+        "~/.codeium/windsurf/mcp_config.json",
+        "~/.codex/config.toml"
       ],
       "windows": [
         "%LOCALAPPDATA%\\TasksAI\\farmer",
         "%APPDATA%\\Claude\\claude_desktop_config.json",
         "%USERPROFILE%\\.cursor\\mcp.json",
-        "%USERPROFILE%\\.codeium\\windsurf\\mcp_config.json"
+        "%USERPROFILE%\\.codeium\\windsurf\\mcp_config.json",
+        "%USERPROFILE%\\.codex\\config.toml"
       ],
       "linux": [
         "~/.local/share/TasksAI/farmer",
         "~/.config/Claude/claude_desktop_config.json",
         "~/.cursor/mcp.json",
-        "~/.codeium/windsurf/mcp_config.json"
+        "~/.codeium/windsurf/mcp_config.json",
+        "~/.codex/config.toml"
       ]
     },
     "environment_overrides": [
