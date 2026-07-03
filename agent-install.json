@@ -6,11 +6,14 @@
   "official_github_repo": "https://github.com/laudoluxDev/farmertasksai-mcp",
   "official_package": "@tasksai/install",
   "installer": {
-    "preferred": "npx",
-    "npx": {
-      "command": "npx",
+    "preferred": "npm_exec",
+    "npm_exec": {
+      "command": "npm",
       "args": [
-        "@tasksai/install",
+        "exec",
+        "--package=@tasksai/install",
+        "--",
+        "tasksai-install",
         "farmer",
         "--source",
         "https://github.com/laudoluxDev/farmertasksai-mcp"
@@ -69,17 +72,23 @@
     "native_installer_user_approval_required": true
   },
   "health_check": {
-    "command": "npx",
+    "command": "npm",
     "args": [
-      "@tasksai/install",
+      "exec",
+      "--package=@tasksai/install",
+      "--",
+      "tasksai-install",
       "farmer",
       "doctor"
     ]
   },
   "uninstall": {
-    "command": "npx",
+    "command": "npm",
     "args": [
-      "@tasksai/install",
+      "exec",
+      "--package=@tasksai/install",
+      "--",
+      "tasksai-install",
       "farmer",
       "uninstall"
     ]
