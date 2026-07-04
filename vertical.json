@@ -6,6 +6,6 @@
   "website_url": "https://farmertasksai.com",
   "billing_url": "https://farmertasksai.com/#pricing",
   "support_email": "support@farmertasksai.com",
-  "privacy_summary": "FarmerTasksAI servers handle authentication, credits, catalog/search metadata, and licensed skill delivery. FarmerTasksAI does not process the user's farm task content. The user's chosen AI assistant or LLM performs the task work according to that provider's privacy terms.",
+  "privacy_summary": "FarmerTasksAI servers handle authentication, credits, catalog/search metadata, and licensed skill delivery. FarmerTasksAI does not process the user's farm task content or generated output files. The user's chosen AI assistant or LLM performs the task work according to that provider's privacy terms, and saved files are created locally by the MCP runtime.",
   "first_prompt": "Check my FarmerTasksAI credit balance."
 }
