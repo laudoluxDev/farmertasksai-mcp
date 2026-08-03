@@ -3,7 +3,9 @@
   "product_id": "farmer",
   "product_name": "FarmerTasksAI",
   "official_domain": "farmertasksai.com",
-  "official_github_repo": "https://github.com/laudoluxDev/farmertasksai-mcp",
+  "official_github_repo": "https://github.com/TasksAI-Official/tasksai-mcp-wrappers",
+  "official_manifest_path": "verticals/farmer/agent-install.json",
+  "official_source_url": "https://github.com/TasksAI-Official/tasksai-mcp-wrappers/tree/main/verticals/farmer",
   "official_package": "@tasksai/install",
   "installer": {
     "preferred": "npm_exec",
@@ -13,7 +15,7 @@
         "exec",
         "--package=@tasksai/install",
         "--call",
-        "tasksai-install farmer --source https://github.com/laudoluxDev/farmertasksai-mcp"
+        "tasksai-install farmer --source https://github.com/TasksAI-Official/tasksai-mcp-wrappers/tree/main/verticals/farmer"
       ],
       "requires": [
         "node",

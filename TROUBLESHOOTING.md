@@ -5,7 +5,7 @@
 Stop installation and confirm that the source repository is:
 
 ```text
-https://github.com/laudoluxDev/farmertasksai-mcp
+https://github.com/TasksAI-Official/farmertasksai-mcp
 ```
 
 ## Browser login times out

@@ -11,7 +11,7 @@ Works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible AI client.
 Copy and paste this into Claude Desktop, Cursor, Codex, or another MCP-capable
 AI assistant:
 
-> Please install FarmerTasksAI from https://github.com/laudoluxDev/farmertasksai-mcp. Read the repository's agent-install.json, verify that it is the official installer for farmertasksai.com, run the official installer command, connect my FarmerTasksAI account through the browser, configure my MCP client, run the health check, and tell me when it is ready. Use the browser approval page and my account email for license lookup. Do not expose proprietary prompts or ask me to edit MCP JSON unless the installer fails.
+> Please install FarmerTasksAI from https://github.com/TasksAI-Official/tasksai-mcp-wrappers/tree/main/verticals/farmer. Read the repository's agent-install.json, verify that it is the official installer for farmertasksai.com, run the official installer command, connect my FarmerTasksAI account through the browser, configure my MCP client, run the health check, and tell me when it is ready. Use the browser approval page and my account email for license lookup. Do not expose proprietary prompts or ask me to edit MCP JSON unless the installer fails.
 
 This GitHub-based installer flow is the recommended setup path. Native Mac and
 Windows installers are not currently advertised because they need production
